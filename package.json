@@ -2,7 +2,7 @@
   "name": "make-tile",
   "version": "0.0.1",
   "description": "Convert geojson to tile",
-  "homepage": "https://github.com/mapbox/geojson-vt",
+  "homepage": "https://github.com/BoryaMogila/make-tile",
   "keywords": [
     "spatial",
     "geojson",
@@ -12,7 +12,7 @@
   "author": "Borys Mohyla",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mapbox/geojson-vt.git"
+    "url": "git://github.com/BoryaMogila/make-tile.git"
   },
   "module": "src/index.js",
   "main": "geojson-vt-dev.js",
@@ -31,8 +31,8 @@
     "watch": "rollup -cw"
   },
   "files": [
-    "geojson-vt.js",
-    "geojson-vt-dev.js",
+    "make-tile.js",
+    "make-tile-dev.js",
     "src"
   ]
 }
