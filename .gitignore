@@ -1,2 +1,4 @@
 node_modules
 .idea/
+make-tile-dev.js
+make-tile.js
