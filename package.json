@@ -1,6 +1,6 @@
 {
   "name": "make-tile",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert geojson to tile",
   "homepage": "https://github.com/BoryaMogila/make-tile",
   "keywords": [
