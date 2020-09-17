@@ -712,7 +712,7 @@ function makeTile(data, tileOptions, pixel) {
     var x = pixel.x;
     var y = pixel.y;
     var z = pixel.z;
-    var options = this.options = Object.assign({}, defaultOptions, tileOptions);
+    var options = Object.assign({}, defaultOptions, tileOptions);
     var features = convert(data, options);
     features = wrap(features, options);
     return transformTile(createTile(features, z, x, y, options), options.extent);

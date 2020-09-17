@@ -18,7 +18,7 @@ const defaultOptions = {
 
 export default function makeTile(data, tileOptions, pixel) {
     const { x, y, z } = pixel;
-    const options = this.options = Object.assign({}, defaultOptions, tileOptions);
+    const options = Object.assign({}, defaultOptions, tileOptions);
     let features = convert(data, options);
     features = wrap(features, options);
     return transformTile(createTile(features, z, x, y, options), options.extent);
