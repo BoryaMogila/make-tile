@@ -15,9 +15,9 @@
     "url": "git://github.com/BoryaMogila/make-tile.git"
   },
   "module": "src/index.js",
-  "main": "geojson-vt-dev.js",
-  "jsdelivr": "geojson-vt.js",
-  "unpkg": "geojson-vt.js",
+  "main": "make-tile-dev.js",
+  "jsdelivr": "make-tile.js",
+  "unpkg": "make-tile.js",
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.1",
     "esm": "^3.2.25",
