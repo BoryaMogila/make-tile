@@ -1,7 +1,7 @@
-import convert from 'geojson-vt/src/convert';
-import wrap from 'geojson-vt/src/wrap';
-import transformTile from 'geojson-vt/src/transform';
-import createTile from 'geojson-vt/src/tile';
+import convert from './convert';
+import wrap from './wrap';
+import transformTile from './transform';
+import createTile from './tile';
 
 const defaultOptions = {
     maxZoom: 14,            // max zoom to preserve detail on
