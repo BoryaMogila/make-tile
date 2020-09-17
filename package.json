@@ -1,0 +1,38 @@
+{
+  "name": "make-tile",
+  "version": "0.0.1",
+  "description": "Convert geojson to tile",
+  "homepage": "https://github.com/mapbox/geojson-vt",
+  "keywords": [
+    "spatial",
+    "geojson",
+    "tiles",
+    "geometry"
+  ],
+  "author": "Borys Mohyla",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mapbox/geojson-vt.git"
+  },
+  "module": "src/index.js",
+  "main": "geojson-vt-dev.js",
+  "jsdelivr": "geojson-vt.js",
+  "unpkg": "geojson-vt.js",
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.1",
+    "esm": "^3.2.25",
+    "rollup": "^2.2.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "geojson-vt": "^3.2.1"
+  },
+  "license": "ISC",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "files": [
+    "geojson-vt.js",
+    "geojson-vt-dev.js",
+    "src"
+  ]
+}
